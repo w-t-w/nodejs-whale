@@ -1,0 +1,23 @@
+{
+  "name": "nodejs-whale",
+  "version": "0.0.1",
+  "description": "nodejs whale",
+  "main": "index.js",
+  "scripts": {
+    "grammar": "nodemon ./grammar/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/w-t-w/nodejs-whale.git"
+  },
+  "keywords": [
+    "nodejs",
+    "whale"
+  ],
+  "author": "white-than-wood",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/w-t-w/nodejs-whale/issues"
+  },
+  "homepage": "https://github.com/w-t-w/nodejs-whale#readme"
+}
