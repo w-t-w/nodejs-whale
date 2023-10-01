@@ -4,9 +4,9 @@
   "description": "nodejs whale",
   "main": "index.js",
   "scripts": {
-    "grammar": "nodemon ./grammar/index.js",
-    "game": "nodemon ./game/index.js",
-    "module": "nodemon ./module/index.js"
+    "grammar": "nodemon ./basic/grammar/index.js",
+    "game": "nodemon ./basic/game/index.js",
+    "module": "nodemon ./basic/module/index.js"
   },
   "repository": {
     "type": "git",
