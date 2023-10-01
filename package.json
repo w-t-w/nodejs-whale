@@ -8,7 +8,8 @@
     "game": "nodemon ./basic/game/index.js",
     "module": "nodemon ./basic/module/index.js",
     "builtIns": "nodemon ./basic/builtIns/index.js",
-    "callback": "nodemon ./basic/callback/index.js"
+    "callback": "nodemon ./basic/callback/index.js",
+    "eventLoop": "nodemon ./basic/eventLoop/index.js"
   },
   "repository": {
     "type": "git",
