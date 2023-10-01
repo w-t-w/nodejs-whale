@@ -15,8 +15,10 @@ const computer_random = Math.floor(Math.random() * selection_length),
 function differentActionJudgement(player, computer) {
     let player_index = null;
     for (let [key, value] of selection.entries()) {
-        if (player === value)
+        if (player === value) {
             player_index = key;
+            break;
+        }
     }
     if (player_index === selection_length - 1)
         player_index = -1;
