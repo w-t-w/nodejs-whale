@@ -6,7 +6,8 @@
   "scripts": {
     "grammar": "nodemon ./basic/grammar/index.js",
     "game": "nodemon ./basic/game/index.js",
-    "module": "nodemon ./basic/module/index.js"
+    "module": "nodemon ./basic/module/index.js",
+    "builtIns": "nodemon ./basic/builtIns/index.js"
   },
   "repository": {
     "type": "git",
