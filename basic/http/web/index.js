@@ -11,7 +11,7 @@ const server = http.createServer((req, res) => {
     if (url === '/favicon.ico') {
         res.writeHead(200);
         res.end('');
-        return false;
+        return true;
     }
     res.writeHead(200);
     fs.createReadStream(TEMPLATE_DIR, 'utf-8').pipe(res);
