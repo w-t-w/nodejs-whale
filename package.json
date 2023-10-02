@@ -10,7 +10,8 @@
     "builtIns": "nodemon ./basic/builtIns/index.js",
     "callback": "nodemon ./basic/callback/index.js",
     "eventLoop": "nodemon ./basic/eventLoop/index.js",
-    "promise": "nodemon ./basic/promise/index.js"
+    "promise": "nodemon ./basic/promise/index.js",
+    "async": "nodemon ./basic/async/index.js"
   },
   "repository": {
     "type": "git",
