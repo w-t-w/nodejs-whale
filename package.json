@@ -19,7 +19,8 @@
     "rpc:half-douplex:server": "nodemon ./basic/rpc/half-douplex/server/index.js",
     "rpc:half-douplex:client": "nodemon ./basic/rpc/half-douplex/client/index.js",
     "rpc:douplex:server": "nodemon ./basic/rpc/douplex/server/index.js",
-    "rpc:douplex:client": "nodemon ./basic/rpc/douplex/client/index.js"
+    "rpc:douplex:client": "nodemon ./basic/rpc/douplex/client/index.js",
+    "template": "nodemon ./basic/template/index.js"
   },
   "repository": {
     "type": "git",
