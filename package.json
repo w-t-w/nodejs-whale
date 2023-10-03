@@ -13,7 +13,9 @@
     "promise": "nodemon ./basic/promise/index.js",
     "async": "nodemon ./basic/async/index.js",
     "http": "nodemon ./basic/http/index.js",
-    "rpc": "nodemon ./basic/rpc/index.js"
+    "rpc": "nodemon ./basic/rpc/index.js",
+    "rpc:simplex:server": "nodemon ./basic/rpc/simplex/server/index.js",
+    "rpc:simplex:client": "nodemon ./basic/rpc/simplex/client/index.js"
   },
   "repository": {
     "type": "git",
