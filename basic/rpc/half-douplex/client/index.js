@@ -41,9 +41,15 @@ socket.connect({
     keepAlive: true
 });
 
-index = Math.floor(Math.random() * lessonIds_length);
-id = lessonIds[index];
-socket.write(encode(id));
+// index = Math.floor(Math.random() * lessonIds_length);
+// id = lessonIds[index];
+// socket.write(encode(id));
+
+for (let k = 0; k < 100; k++) {
+    index = Math.floor(Math.random() * lessonIds_length);
+    id = lessonIds[index];
+    socket.write(encode(id));
+}
 
 socket.on('data', data => {
     buffer = (buffer && buffer.length) ? Buffer.concat([buffer, data]) : data;
@@ -52,10 +58,9 @@ socket.on('data', data => {
     const result = body.toString().trim();
     console.log(`课程下标为 ${index + 1} 的包头为 ${seq + 1} 课程 id 为 ${id} 的课程名称为 ${result}!`);
     buffer = null;
-
-    index = Math.floor(Math.random() * lessonIds_length);
-    id = lessonIds[index];
-    socket.write(encode(id));
+    // index = Math.floor(Math.random() * lessonIds_length);
+    // id = lessonIds[index];
+    // socket.write(encode(id));
 });
 
 function encode(id) {
