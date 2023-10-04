@@ -20,7 +20,8 @@
     "rpc:half-douplex:client": "nodemon ./basic/rpc/half-douplex/client/index.js",
     "rpc:douplex:server": "nodemon ./basic/rpc/douplex/server/index.js",
     "rpc:douplex:client": "nodemon ./basic/rpc/douplex/client/index.js",
-    "template": "nodemon ./basic/template/index.js"
+    "template": "nodemon ./basic/template/index.js",
+    "graphql": "nodemon basic/graphql/index.js"
   },
   "repository": {
     "type": "git",
@@ -37,7 +38,8 @@
   },
   "homepage": "https://github.com/w-t-w/nodejs-whale#readme",
   "dependencies": {
-    "@babel/cli": "^7.23.0"
+    "@babel/cli": "^7.23.0",
+    "graphql": "^15.8.0"
   },
   "devDependencies": {
     "express": "^4.18.2",
